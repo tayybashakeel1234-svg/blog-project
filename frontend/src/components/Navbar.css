@@ -1,0 +1,32 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 60px;
+  background: transparent;
+}
+
+.logo {
+  font-size: 26px;
+  font-weight: bold;
+  color: white;
+}
+
+.nav-links {
+  display: flex;
+  gap: 15px;
+}
+
+.nav-btn {
+  padding: 10px 18px;
+  text-decoration: none;
+  color: white;
+  background: #6c63ff;
+  border-radius: 6px;
+  font-weight: 500;
+}
+
+.nav-btn.outline {
+  background: transparent;
+  border: 2px solid white;
+}

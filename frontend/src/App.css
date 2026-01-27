@@ -1,0 +1,10 @@
+form { margin-bottom: 20px; }
+form input, form textarea { display: block; margin-bottom: 10px; width: 100%; padding: 8px; font-size: 16px; }
+.blog-card { border: 1px solid #ccc; padding: 10px; margin-bottom: 10px; }
+.blog-card img { max-width: 100%; height: auto; }
+.auth-container { display: flex; justify-content: center; align-items: center; min-height: 100vh; }
+.form-box { width: 350px; padding: 30px; border: 1px solid #ccc; border-radius: 10px; }
+.password-box { position: relative; }
+.password-box .eye { position: absolute; right: 10px; top: 50%; transform: translateY(-50%); cursor: pointer; }
+.success { color: green; margin-top: 10px; }
+.switch { margin-top: 15px; font-size: 14px; text-align: center; }
